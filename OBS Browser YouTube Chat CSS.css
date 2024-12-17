@@ -1,0 +1,52 @@
+yt-live-chat-renderer {
+  background: transparent;
+}
+
+yt-live-chat-viewer-engagement-message-renderer{
+  display: none;
+}
+
+#timestamp.yt-live-chat-text-message-renderer {
+  display: block;
+  color: #f77f16;
+}
+
+yt-live-chat-author-chip[is-highlighted] #author-name.owner.yt-live-chat-author-chip,
+#author-name.owner.yt-live-chat-author-chip {
+  background-color: #e319cf;
+  color: #0ef021;
+}
+
+#content #author-name.moderator {
+  background-color: #bb2df7;
+  color: black;
+}
+
+#author-name.yt-live-chat-author-chip {
+  background-color: #0ef021;
+  color: black;
+}
+
+yt-live-chat-text-message-renderer[author-is-owner]{
+  background-color: #230b5c70;
+}
+
+yt-live-chat-text-message-renderer{
+  background-color: #0c2e2c70;
+}
+
+#author-photo {
+  filter: blur(2px);
+}
+
+#author-name {
+  font-size: 16px;
+}
+
+#content>#message {
+  display: block;
+  color: #0ef021;
+  text-shadow: #3bf216 1px 0px 8px;
+  font-size: 24px;
+  line-height: 42px;
+}
